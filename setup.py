@@ -22,7 +22,7 @@ except:
 setup(
     # Self-descriptive entries which should always be present
     name='molecool',
-    author='Ankita J Mukhtyar',
+    author='Ankita J. Mukhtyar',
     author_email='ajm529@cornell.edu',
     description=short_description[0],
     long_description=long_description,
