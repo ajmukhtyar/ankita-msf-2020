@@ -2,9 +2,10 @@
 Functions for visualization
 """
 
+import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-import numpy as np
+
 from .atomdata import atom_colors
 
 def draw_molecule(coordinates, symbols, draw_bonds=None, save_location=None, dpi=300):
